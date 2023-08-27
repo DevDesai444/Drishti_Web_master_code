@@ -1,0 +1,152 @@
+html
+{
+    overflow-x: hidden;
+}
+body
+{
+    overflow-x: hidden;
+    font-family: 'PlusJakartaSans', Helvetica, Arial, sans-serif;
+}
+p
+{
+    text-align: justify; 
+    font-size:larger;
+   
+}
+.back
+{
+    background-image: url('images/s.jpg');
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.8);
+    
+}
+
+h2
+{
+    font-weight: 530;
+   
+}
+.underline
+{
+    height: 5px;
+    background-color: black;
+}
+.navbar
+{
+    font-size: 22px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.line
+{
+    padding-top: 50px;
+}
+.con
+{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+@media(max-width:750px)
+{
+    .con
+    {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+@media(max-width:450px)
+{
+    .con
+    {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+.bottom
+{
+    padding-bottom: 50px;
+}
+@media(max-width:978px)
+{
+    .hello
+    {
+        padding-top: 50px;
+    }
+}
+@media(max-width:978px)
+{
+    .hello1
+    {
+        padding-top: 80px;
+    }
+}
+.dob .x
+{
+    color:white;
+     padding-top:30px;
+}
+@media(max-width:800px)
+{
+    .dob .x{
+        padding-top:4px;
+    }
+}
+.dob
+{
+    padding-left: 50px;
+     padding-top: 50px;
+    padding-right: 50px;
+}
+@media(max-width:450px)
+{
+    .dob
+    {
+        padding-right: 0px;
+        padding-left:0px;
+    }
+}
+.im
+{
+    width: 150px;
+    height: auto;
+}
+@media(max-width:400px)
+{
+    .im
+    {
+        width: 130px;
+        height: auto;
+        margin-right: 0%;
+    }
+}
+.dropdown-menu
+  {
+    background-image: url('images/s.jpg');
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  @media(max-width:460px)
+  {
+      h2
+      {
+          font-weight: normal;
+      }
+       .back
+      {
+        background-image: url('images/s.jpg');
+        background-blend-mode: lighten;
+        background-color: rgba(255, 255, 255, 0.7);
+      }
+  }
+  .push
+  {
+    font-weight: 530; 
+    font-size:20px;
+  }
+  @media(max-width:450px)
+  {
+      .push
+      {
+          font-weight: normal;
+      }
+  }
+ 
